@@ -141,7 +141,7 @@ footer{
   background-image: url("assets/Images/footer.png");
   background-size: 100% 100%;
   padding: 30px;
-  line-height: 12px;
+  line-height: 10px;
 }
 #links{
   list-style-type: none;
