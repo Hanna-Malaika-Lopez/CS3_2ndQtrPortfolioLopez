@@ -1,0 +1,145 @@
+@font-face{
+  font-family: "circushead";
+  src: url("assets/Fonts/Circus.ttf");
+}
+@font-face{
+  font-family: "circushead2";
+  src: url("assets/Fonts/BestaBaru-8OaO0.ttf");
+}
+@font-face{
+  font-family: "circushead3";
+  src: url("assets/Fonts/QuentinCaps.ttf");
+}
+body{
+    margin-top:auto;
+    background-image: url("assets/Images/bg.png");
+    background-size: 100% 100%;
+}
+h1{
+    text-align:center;
+}
+table, th, td {
+  border:3px dashed black;
+  border-collapse: collapse;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  font-family: "circushead2";
+  font-size: 2rem;
+  background-color: white;
+}
+img{
+ width: 200px;
+}
+iframe{
+  width:355px;
+  height:200px;
+}
+.header {
+  width: 100%;
+  height: 200px;
+  background-image: url("assets/Images/navbar.png");
+  background-size: 100% 100%;
+  overflow: auto;
+}
+
+nav a {
+  float: left;
+  text-decoration: none;
+  font-family: "circushead3";
+  color: rgb(255, 178, 45);
+  text-shadow: 2px 2px black;
+  font-size: 2rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 33.33%; 
+  text-align: center;
+}
+
+nav  a:hover {
+  background-image: url("assets/Images/ticket.png");
+  background-size: 100% 100%;
+}
+#subtitle{
+    font-family: "circushead";
+    text-shadow: 2px 2px black;
+    color: rgb(255, 178, 45);
+    margin-top:px;
+    font-size: 3rem;
+    margin-bottom: 0px;
+    line-height: 50px;
+}
+span{
+  font-family: "circus head3";
+  margin-bottom:0px;
+  line-height: 0px;
+}
+#lunox{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+#bunny{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color:white;
+}
+#ellyz{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+#tuesday{
+  font-family: "circushead3";
+  color: rgb(255, 178, 45);
+  text-shadow: 2px 2px black;
+  font-size: 3rem;
+}
+#done{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "circushead3";
+  font-size: 2rem;
+  background-image: url('assets/Images/ticket.png');
+  background-size: 120% 100%;
+  background-position: center;
+}
+hr{
+  border: 5px dashed rgb(255, 255, 255);
+}
+.thoughts{
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 2%;
+  border: 3px dashed black;
+}
+#jester{
+  width: 50px;
+}
+#thoughtstitle{
+  font-family: "circushead3";
+}
+#thoughtscontent{
+  font-family: "circushead2";
+}
+footer{
+  width: 100%;
+  display: block;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: "circushead2";
+  font-size: 2rem;
+  text-shadow: 2px 2px black;
+  color: rgb(255, 178, 45);
+  background-image: url("assets/Images/footer.png");
+  background-size: 100% 100%;
+  padding: 30px;
+  line-height: 12px;
+}
