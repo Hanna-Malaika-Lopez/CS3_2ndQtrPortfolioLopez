@@ -143,6 +143,36 @@ footer{
   padding: 30px;
   line-height: 10px;
 }
-#links{
+.socials a{
+  text-decoration: none;
+  color: rgb(255, 178, 45);
+}
+.socials a:visited{
+  text-decoration: none;
+  color: rgb(255, 178, 45);
+}
+.socials{
   list-style-type: none;
+  display: flex;
+
+
+}
+.socials img{
+  width: 40px;
+  border-radius: 50%;
+}
+.socials li{
+  display: block;
+  float: left;
+  width: 33.33%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#refs a{
+    color: rgb(255, 178, 45);
+
+}
+#refs a:visited{
+  color: rgb(255, 178, 45);
+
 }
