@@ -1,18 +1,18 @@
 @font-face{
   font-family: "circushead";
-  src: url("assets/Fonts/Circus.ttf");
+  src: url("../../assets/2Q1GAssets/Fonts/Circus.ttf");
 }
 @font-face{
   font-family: "circushead2";
-  src: url("assets/Fonts/BestaBaru-8OaO0.ttf");
+  src: url("../../assets/2Q1GAssets/Fonts/BestaBaru-8OaO0.ttf");
 }
 @font-face{
   font-family: "circushead3";
-  src: url("assets/Fonts/QuentinCaps.ttf");
+  src: url("../../assets/2Q1GAssets/Fonts/QuentinCaps.ttf");
 }
 body{
     margin-top:auto;
-    background-image: url("assets/Images/bg.png");
+    background-image: url("../../assets/2Q1GAssets/Images/bg.png");
     background-size: 100% 100%;
 }
 h1{
@@ -38,7 +38,7 @@ iframe{
 .header {
   width: 100%;
   height: 200px;
-  background-image: url("assets/Images/navbar.png");
+  background-image: url("../../assets/2Q1GAssets/Images/navbar.png");
   background-size: 100% 100%;
   overflow: auto;
 }
@@ -57,7 +57,7 @@ nav a {
 }
 
 nav  a:hover {
-  background-image: url("assets/Images/ticket.png");
+  background-image: url("../../assets/2Q1GAssets/Images/ticket.png");
   background-size: 100% 100%;
 }
 #subtitle{
@@ -83,7 +83,7 @@ span{
   border-radius: 50%;
   height: 40px;
   width: 40px;
-  background-color:white;
+    background-color: white;
 }
 #ellyz{
   border-radius: 50%;
@@ -102,7 +102,7 @@ span{
   margin-right: auto;
   font-family: "circushead3";
   font-size: 2rem;
-  background-image: url('assets/Images/ticket.png');
+  background-image: url('../../assets/2Q1GAssets/Images/ticket.png');
   background-size: 120% 100%;
   background-position: center;
 }
@@ -138,7 +138,7 @@ footer{
   font-size: 2rem;
   text-shadow: 2px 2px black;
   color: rgb(255, 178, 45);
-  background-image: url("assets/Images/footer.png");
+  background-image: url("../../assets/2Q1GAssets/Images/footer.png");
   background-size: 100% 100%;
   padding: 30px;
   line-height: 10px;
