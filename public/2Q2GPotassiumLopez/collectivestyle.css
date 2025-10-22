@@ -1,0 +1,108 @@
+.emilys-candy-regular {
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.delius-swash-caps-regular {
+  font-family: "Delius Swash Caps", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+header{
+  background-color: #ff8ca3;
+  width: 100%;
+  height: 25vh;
+  padding-top: 1vh;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Emilys Candy", serif;
+  font-size: 2em;
+  color: rgb(54, 9, 0);
+  
+}
+nav{
+  background-color: #ffeb99;
+  position: relative;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+nav img{
+  width: 40px;
+  height: 40px;
+  background-color:#FFFFFF;
+  border-radius:50%;
+}
+nav a{
+  margin-left: auto;
+  font-family: "Delius Swash Caps";
+  font-size: 2rem;
+  width: 100%;
+}
+nav a:hover{
+  margin-left: auto;
+  font-size: 2rem;
+  background-color: yellow;
+  padding: 3vh;
+}
+body{
+  background-image: url('../../assets/2Q2GAssets/collectivebg.png');
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  text-align: center;
+}
+#schedule, th, tr, td{
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#fff3c2;
+  border: 5px, dotted, #000000;
+  border-collapse: collapse;
+  font-family: "Delius Swash Caps";
+  font-size: 1.2em;
+}
+#schedule img{
+  width: 200px;
+}
+section h1{
+  font-family: "Emilys Candy";
+  font-size: 2em;
+}
+footer img{
+  width: 40px;
+  height: 40px;
+}
+.thoughts{
+  width: 50vw;
+  margin: auto;
+  background-color: #fff3c2;
+  padding: 1%;
+  border: 5px, dotted;
+  border-radius: 5%;
+}
+.thoughts img{
+    width: 10%;
+}
+footer{
+  background-color: #ff8ca3;
+  height: 20vh;
+}
+footer ul{
+  list-style-type: none;
+  display: flex;
+  width: 100%
+}
+footer li{
+  width: 33.33%
+}
+#copyright{
+  font-family: "Emilys Candy", serif;
+}
+.socials, #refs, #tthoughtscontent{
+  font-family: "Delius Swash Caps";
+}
+#logo{
+  float: left;
+  width: 25vw;
+  position: fixed;
+  bottom: 10%;
+  left: 0%;
+}
