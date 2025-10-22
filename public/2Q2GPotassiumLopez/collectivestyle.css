@@ -25,6 +25,7 @@ nav{
   position: relative;
   padding-top: 3vh;
   padding-bottom: 3vh;
+  overflow:hidden;
 }
 nav img{
   width: 40px;
@@ -33,16 +34,33 @@ nav img{
   border-radius:50%;
 }
 nav a{
-  margin-left: auto;
   font-family: "Delius Swash Caps";
   font-size: 2rem;
   width: 100%;
+  text-decoration: none;
+  color:rgb(54, 9, 0);
 }
-nav a:hover{
-  margin-left: auto;
-  font-size: 2rem;
-  background-color: yellow;
-  padding: 3vh;
+nav a:visited{
+  text-decoration: none;
+}
+div{
+  width:33.33%;
+  display:block;
+  float:left;
+}
+#thurs{
+  transition: background-color 0.67s, transform 0.67s;
+  border-radius: 5%;
+}
+#fri{
+  transition: height 0.5s
+}
+#fri:hover{
+  height: 500px;
+}
+#thurs:hover{
+  background-color: #ff8ca3;
+  transform: rotate(5deg);
 }
 body{
   background-image: url('../../assets/2Q2GAssets/collectivebg.png');
@@ -62,7 +80,7 @@ body{
 #schedule img{
   width: 200px;
 }
-section h1{
+main h1{
   font-family: "Emilys Candy";
   font-size: 2em;
 }
@@ -84,6 +102,9 @@ footer img{
 footer{
   background-color: #ff8ca3;
   height: 20vh;
+  line-height: 10%;
+  overflow: auto;
+  margin-bottom: 0px;
 }
 footer ul{
   list-style-type: none;
@@ -93,11 +114,21 @@ footer ul{
 footer li{
   width: 33.33%
 }
+footer a, a:visited{
+  text-decoration: none;
+  color:rgb(54, 9, 0);
+}
 #copyright{
   font-family: "Emilys Candy", serif;
+  font-size: 1.7rem;
+  color:rgb(54, 9, 0);
 }
 .socials, #refs, #thoughtscontent{
   font-family: "Delius Swash Caps";
+  font-size: 1.5rem;
+}
+.socials img{
+  border-radius: 50%;
 }
 #logo{
   float: left;
@@ -105,4 +136,8 @@ footer li{
   position: fixed;
   bottom: 10%;
   left: 0%;
+}
+hr{
+  border-top: 5px dotted #000000;
+  border-bottom: #00000000;
 }
