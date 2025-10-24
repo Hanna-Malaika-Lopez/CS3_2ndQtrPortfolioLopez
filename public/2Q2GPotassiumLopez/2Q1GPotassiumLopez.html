@@ -10,15 +10,19 @@
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Emilys+Candy&display=swap" rel="stylesheet">
   <title>Potassium 2029 Schedule | Tuesday</title>
+    <style>
+        
+    </style>
 </head>
 <body>
     <header>
         <h1 id="subtitle">˚✧𖦹𐙚⋆Potassium 2029 Daily Schedules⋆𐙚𖦹✧˚</h1>
     </header>
     <nav>
+        <audio src="../../assets/2Q2GAssets/hoversfx.mp3" id="hoversfx"></audio>
         <div id="mon"><img src="../../assets/2Q1GAssets/Images/lunox.jpeg" id="lunox"><a onmouseover="scramble()" onmouseout="normal()" id="monday"href="https://eonxonee.github.io/CS3_2ndQtrPortfolio/public/2Q1GPotassiumVeloso.html">Monday</a></div>
-        <div id="thurs"><img src="../../assets/2Q1GAssets/Images/bunny.png" id="bunny"><a onmouseover="toggleani()" onmouseout="normal2()"id="thursday"href="https://jfkam.github.io/CS32ndQtrPortfolioKam_K16/public/2Q1GPotassiumKam.html" >Thursday</a></div>
-        <div id="fri"><img src="../../assets/2Q1GAssets/Images/ellyz.png" id="ellyz"><a id="friday"href="https://ellysz24.github.io/CS3_2ndQtrPortfolioDalimot/public/2Q1GPotassiumDalimot.html">Friday</a></div>
+        <div id="thurs"><img src="../../assets/2Q1GAssets/Images/bunny.png" id="bunny"><a id="thursday"href="https://jfkam.github.io/CS32ndQtrPortfolioKam_K16/public/2Q2GPotassiumKam.html" >Thursday</a></div>
+        <div id="fri" onmouseover="play()" onmouseout="stop()"><img src="../../assets/2Q1GAssets/Images/ellyz.png" id="ellyz"><a id="friday"href="https://ellysz24.github.io/CS3_2ndQtrPortfolioDalimot/public/2Q2GPotassiumDalimot.html">Friday</a></div>
     </nav>
     <br>
     <br>
@@ -113,6 +117,8 @@
         </tr>
     </table>
     <br>
+    <audio src="../../assets/2Q2GAssets/buttonsfx.mp3" id="btnsfx"></audio>
+    <button id="done" onclick="trigger()">۶ৎEND OF CLASSES۶ৎ</button>
     <br>
     <hr>
     <br>
@@ -122,6 +128,8 @@
         <p id="thoughtscontent">Feelings are mIxEd!<br> Tuesday can be either fun and alright or REALLY HARD especially since Math and Physics are within the day. When there are assesments, it can be really hard, especially since i'm very behind when it comes to Math, since I do not know the Grade 7 and 8 lesson they had in Math, which is why I need to prepare more for Tuesdays and Fridays. Sometimes I do feel sad because i don't understand the lesson or what's happening in the subject; but my teachers are very engaging so the day is still bearable and fun!.<br><br>
         Tuesdays without assesments are Fun days, as the teachers make it very engaging and fun learn the new lessons. Whether or not the lesson is hard, the teachers make it very cool and fun! They become my inspirations! The teachers are also very open to questions, so it's easier to learn.<br><br> All in all, Tuesdays are still fun days, as the teachers and classmates make it very fun! Study periods and lunches also make it bearable>:D. Lastly, it's always comforting to know that THE BEST SCHEDULE, wednesday is coming tomorrow (heh!).</p>
     </section>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/L3esQKf_dkc?si=wlC2AgX6WFSwFt7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <br>
     <br>
     <img id="logo" src="../../assets/2Q2GAssets/logo.png">
@@ -143,6 +151,29 @@
     function normal(){
         document.getElementById("monday").innerText="Monday";
     }
+    var sound= document.getElementById("hoversfx");
+    function play(){
+        sound.play();
+    }
+    function stop(){
+        sound.pause();
+        sound.currentTime=0;
+    }
+    function trigger(){
+    confetti({
+    particleCount: 100,
+    spread: 70,
+    origin: { x:0, y: 0.7 },
+    });
+    confetti({
+    particleCount: 100,
+    spread: 70,
+    origin: { x:1, y: 0.7 },
+    });
+    var audio= document.getElementById("btnsfx");
+    audio.play();
+    }
+</script>
 </script>
 </body>
 </html>
