@@ -1,0 +1,16 @@
+/* extra CSS */
+.container ul {
+    list-style-type: none; /* removes bullets */
+    clear: left; /* removes effect of float:left */
+    padding: 0; /* removes the spaces surrounding the li/s */
+    }
+    
+    .container ul li {
+    width: 150px;
+    padding: 5px;
+    background-color: cornsilk;
+    text-align: center;
+    float: left;
+    display: flex;
+    border-radius: 0px 25px;
+    }
